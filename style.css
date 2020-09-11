@@ -98,33 +98,34 @@
     }
     .flex-container {
         position: absolute;
-        top: 33%;
+        top: 30%;
         left: 0%;
         right: 0%;
         justify-content: space-evenly;
     }
     .member-2 {
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .member-4 {
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .member-6 {
-        margin-top: 150px;
+        margin-top: 50px;
     }
     
     .heading {
         position: absolute;
-        top: 5%;
-        left: 9%;
+        top: 3%;
+        left: 6%;
         right: 0%;
+        margin-bottom: 10px;
 
     }
     .head-left h1 {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .head-right {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         font-size: 18px;
     }
 
@@ -151,16 +152,11 @@
         margin-top: 100px;
     }
 
-    /* .member-4 {
-        margin-top: 100px;
-    } */
 
     .member-5 {
         margin-top: 100px;
     }
-    /* .member-6 {
-        margin-top: 150px;
-    } */
+    
 
     
     .heading {
