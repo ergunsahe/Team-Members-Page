@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 15%;
+    margin-bottom: 50px;
+    
+}
+
+.head-left h1 {
+    font-size: 40px;
+    font-weight: bolder; 
+  
+}
+
+.head-right {
+    font-size: 20px;
+    width: 600px;
+       
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;  
+   
+}
+
+
+.team-members {
+    display: grid;
+    grid-template-columns:305px 20px ;
+    grid-template-areas: 
+    "photo-member title-member"
+    "name-member .";
+    margin-bottom: 50px;
+}
+
+.photo-member {
+    width: 290px;
+    height: 400px;
+    grid-area: "photo-member";
+    border-radius: 5px;
+    
+}
+
+.name-member {
+    grid-area: "name-member";
+    margin: 15px 0px;
+}
+
+.title-member {
+    grid-area: "title-member";
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 13px;
+}
+
+.member-2 {
+    margin-top: 75px;
+    
+}
+
+.member-5 {
+    margin-top: 75px;
+    
+}
+
+
+@media screen and (max-width:600px ) {
+    .photo-member {
+        width: 170px;
+        height: 250px;
+    }
+    .team-members {
+        grid-template-columns: 185px 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .flex-container {
+        position: absolute;
+        top: 33%;
+        left: 0%;
+        right: 0%;
+        justify-content: space-evenly;
+    }
+    .member-2 {
+        margin-top: 100px;
+    }
+    .member-4 {
+        margin-top: 100px;
+    }
+    .member-6 {
+        margin-top: 150px;
+    }
+    
+    .heading {
+        position: absolute;
+        top: 5%;
+        left: 9%;
+        right: 0%;
+
+    }
+    .head-left h1 {
+        margin-bottom: 50px;
+    }
+    .head-right {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width : 600px) and (max-width:1000px) {
+    .photo-member {
+        width: 200px;
+        height: 290px;
+    }
+    .team-members {
+        grid-template-columns: 205px 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .flex-container {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        right: 2%;
+        justify-content: space-evenly;
+    }
+    .member-2 {
+        margin-top: 100px;
+    }
+    .member-4 {
+        margin-top: 100px;
+    }
+    .member-6 {
+        margin-top: 150px;
+    }
+    
+    .heading {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        right: 2%;
+
+    }
+
+}
+
