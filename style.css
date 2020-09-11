@@ -195,8 +195,16 @@
         top: 2%;
         left: 2%;
         right: 2%;
-        
+    }
 
+    .member-2 {
+        margin-top: 30px;
+    }
+    .member-4 {
+        margin-top: 30px;
+    }
+    .member-6 {
+        margin-top: 30px;
     }
 }
 
