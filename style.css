@@ -5,8 +5,7 @@
 }
 
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .heading {
@@ -18,18 +17,22 @@
     left: 20%;
     right: 15%;
     margin-bottom: 50px;
+    /* height: 200px; */
     
 }
 
 .head-left h1 {
+    display: block;
     font-size: 40px;
     font-weight: bolder; 
   
 }
 
 .head-right {
+    display: block;
     font-size: 20px;
     width: 600px;
+    
        
 }
 
@@ -56,7 +59,8 @@
 }
 
 .photo-member {
-    width: 270px;
+    
+    width: 290px;
     height: 350px;
     grid-area: "photo-member";
     border-radius: 5px;
@@ -64,6 +68,7 @@
 }
 
 .name-member {
+    
     grid-area: "name-member";
     margin: 15px 0px;
 }
@@ -151,7 +156,6 @@
     .member-2 {
         margin-top: 75px;
     }
-
 
     .member-5 {
         margin-top: 75px;
